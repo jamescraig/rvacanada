@@ -171,14 +171,14 @@ class RVA extends React.Component {
         <div className={classes.root}>
           <CssBaseline />
           <Header />
-          <Parallax filter image={require("../images/mixer_board.jpg")}>
+          <Parallax filter image={require("../images/dials.jpg")}>
             <div className={classes.container}>
               <Typography variant="h2" gutterBottom className={classes.title}>
-                Our passion is your success.
+                Contact Us
               </Typography>
               <Typography variant="body1" className={classes.title}>
                 At RVA Canada, we are committed to providing exceptional customer service and support to all our clients. 
-                <br /><br />We provide a wide range of professional audio and broadcasting products for broadcast, post production and recording studios.
+                <br /><br />If you have any questions about our company or product lines, please contact us.
               </Typography>
             </div>
           </Parallax>
@@ -187,11 +187,9 @@ class RVA extends React.Component {
             <main className={classes.mainContent}>
               <Paper className={classes.paper}>
                 <Typography variant="h4" className={classes.paperText} gutterBottom>
-                  Our products
+                  How To Reach Us
                 </Typography>
-                <Typography variant="body1" className={classes.paperText}>
-                  Please take a look at a list of our suppliers below.
-                </Typography>
+                <iframe className={classes.iframe} title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.595487396556!2d-79.25419194919408!3d43.82274934936623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d6d1396cfbd3%3A0x3c2a3ab12915911!2sRVA+Canada+Limited!5e0!3m2!1sen!2sca!4v1557704343677!5m2!1sen!2sca" width="100%" height="450" frameborder="0" allowfullscreen></iframe>
               </Paper>
             </main>
           </div>

@@ -1,0 +1,17 @@
+body {
+    /*background: #010103;*/
+    font-size: 16px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sortable-table {
+    color: #000;
+}
+
+#product-table {
+    min-height: 80vh;
+}
