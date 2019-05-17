@@ -5,8 +5,8 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Header from '../components/Navigation/AppBar';
 import Paper from '@material-ui/core/Paper';
 import Parallax from '../components/Parallax/Parallax';
-import Products from '../components/Products/Products';
 import Typography from '@material-ui/core/Typography';
+import Search from "../components/Search/SearchContainer"
 
 let theme = createMuiTheme({
   typography: {
@@ -208,7 +208,7 @@ class RVA extends React.Component {
                 <Typography variant="body1" className={classes.paperText}>
                   Please take a look at a list of our suppliers below.
                 </Typography>
-                <Products />
+                <Search />
               </Paper>
             </main>
           </div>
