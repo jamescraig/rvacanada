@@ -170,9 +170,6 @@ const styles = {
     display: 'flex',
     height: '70px',
     width: '100%',
-    [theme.breakpoints.up('sm')]: {
-      height: '80px',
-    },
   },
 };
 
