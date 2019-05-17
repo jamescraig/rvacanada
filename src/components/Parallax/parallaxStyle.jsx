@@ -7,7 +7,7 @@ const parallaxStyle = {
     position: "relative",
     backgroundPosition: "center center",
     backgroundSize: "cover",
-    margin: "60px 0 0 0",
+    margin: "0",
     padding: "0",
     border: "0",
     display: "flex",

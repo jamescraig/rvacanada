@@ -154,11 +154,25 @@ const styles = {
   paperText: {
     textAlign: 'center',
   },
+  header: {
+    color: '#ffffff',
+    [theme.breakpoints.down('md')]: {
+      fontSize: '3rem',
+    },
+  },
   title: {
     color: '#ffffff',
   },
   iframe: {
     margin: "0 0 30px 0",
+  },
+  spacer: {
+    display: 'flex',
+    height: '70px',
+    width: '100%',
+    [theme.breakpoints.up('sm')]: {
+      height: '80px',
+    },
   },
 };
 
@@ -171,9 +185,10 @@ class RVA extends React.Component {
         <div className={classes.root}>
           <CssBaseline />
           <Header />
+          <div className={classes.spacer}></div>
           <Parallax filter image={require("../images/dials.jpg")}>
             <div className={classes.container}>
-              <Typography variant="h2" gutterBottom className={classes.title}>
+              <Typography variant="h2" gutterBottom className={classes.header}>
                 Contact Us
               </Typography>
               <Typography variant="body1" className={classes.title}>
