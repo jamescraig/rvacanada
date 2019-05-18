@@ -35,7 +35,7 @@ class Search extends Component {
   rebuildIndex = () => {
     const { bookList } = this.state
 
-    const dataToSearch = new JsSearch.Search(`isbn`)
+    const dataToSearch = new JsSearch.Search(`id`)
 
     /**
      *  defines a indexing strategy for the data
@@ -54,7 +54,7 @@ class Search extends Component {
      * defines the search index
      * read more in here https://github.com/bvaughn/js-search#configuring-the-search-index
      */
-    dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex(`isbn`)
+    dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex(`id`)
 
     dataToSearch.addIndex(`business`) // sets the index attribute for the data
     dataToSearch.addIndex(`description`) // sets the index attribute for the data
@@ -143,7 +143,7 @@ class Search extends Component {
                 {/* eslint-disable */}
                 {queryResults.map(item => {
                   return (
-                    <tr key={`row_${item.isbn}`}>
+                    <tr key={`row_${item.id}`}>
                       <td
                         style={{
                           fontSize: `14px`,
