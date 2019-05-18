@@ -1,8 +1,29 @@
 import React, { Component } from "react"
 import Axios from "axios"
 import * as JsSearch from "js-search"
+import Button from '@material-ui/core/Button';
+import withStyles from '@material-ui/core/styles/withStyles';
+import TextField from '@material-ui/core/TextField';
+
+const styles = theme => ({
+  button: {
+    padding: '1rem',
+    width: '100%',
+  },
+  textField: {
+    width: '100%',
+    maxWidth: '320px',
+    marginBottom: '2rem',
+  },
+  searchWrapper: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }
+});
 
 class Search extends Component {
+  
   state = {
     bookList: [],
     search: [],
@@ -77,6 +98,8 @@ class Search extends Component {
   }
 
   render() {
+    const { classes } = this.props;
+
     const {
       isError,
       isLoading,
@@ -115,28 +138,24 @@ class Search extends Component {
       <div>
         <div style={{ margin: `0 auto` }}>
           <form onSubmit={this.handleSubmit}>
-            <div style={{ margin: `0 auto` }}>
-              <label htmlFor="Search" style={{ paddingRight: `10px` }}>
-                Enter your search here
-              </label>
-              <input
+            <div className={classes.searchWrapper} style={{ display: `flex`, alignItems: `center` }}>
+              <TextField
                 id="Search"
+                label="Enter your search here"
+                className={classes.textField}
                 value={searchQuery}
                 onChange={this.searchData}
-                placeholder="Enter your search here"
-                style={{ margin: `0 auto`, width: `400px` }}
+                margin="normal"
               />
             </div>
           </form>
           <div>
-            Number of items:
-            {queryResults.length}
             <table
               style={{
                 width: `100%`,
                 borderCollapse: `collapse`,
                 borderRadius: `4px`,
-                border: `1px solid #d3d3d3`,
+                border: `1px solid #ffffff`,
               }}
             >
               <tbody>
@@ -147,15 +166,15 @@ class Search extends Component {
                       <td
                         style={{
                           fontSize: `14px`,
-                          border: `1px solid #d3d3d3`,
+                          border: `1px solid #ffffff`,
                         }}
                       >
-                        {item.business}
+                        <Button className={classes.button} href={item.url} target="_blank" rel="noopener noreferrer" >{item.business}</Button>
                       </td>
                       <td
                         style={{
                           fontSize: `14px`,
-                          border: `1px solid #d3d3d3`,
+                          border: `1px solid #ffffff`,
                         }}
                       >
                         {item.description}
@@ -173,4 +192,4 @@ class Search extends Component {
   }
 }
 
-export default Search
+export default withStyles(styles)(Search);

@@ -1,5 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
+//import Layout from "../components/layout"
+//import SEO from "../components/seo"
+
 import { MuiThemeProvider, createMuiTheme, withStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Header from '../components/Navigation/AppBar';
@@ -7,6 +11,8 @@ import Paper from '@material-ui/core/Paper';
 import Parallax from '../components/Parallax/Parallax';
 import Typography from '@material-ui/core/Typography';
 import Search from "../components/Search/SearchContainer"
+
+import "../components/layout.css"
 
 let theme = createMuiTheme({
   typography: {
@@ -175,6 +181,10 @@ const styles = {
     height: '70px',
     width: '100%',
   },
+
+  searchSpacer: {
+    margin: '1rem 0',
+  },
 };
 
 class RVA extends React.Component {
@@ -208,7 +218,9 @@ class RVA extends React.Component {
                 <Typography variant="body1" className={classes.paperText}>
                   Please take a look at a list of our suppliers below.
                 </Typography>
-                <Search />
+                <div className={classes.searchSpacer}>
+                  <Search />
+                </div>
               </Paper>
             </main>
           </div>
