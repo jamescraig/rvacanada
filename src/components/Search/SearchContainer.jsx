@@ -164,6 +164,7 @@ class Search extends Component {
                 borderCollapse: `collapse`,
                 borderRadius: `4px`,
                 margin: '1rem 0',
+                border: '1px solid #cbd5e0'
               }}
             >
               <tbody>
