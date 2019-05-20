@@ -4,11 +4,16 @@ import * as JsSearch from "js-search"
 import Button from '@material-ui/core/Button';
 import withStyles from '@material-ui/core/styles/withStyles';
 import TextField from '@material-ui/core/TextField';
+import Typography from '@material-ui/core/Typography';
 
 const styles = theme => ({
   button: {
     padding: '1rem',
     width: '100%',
+    justifyContent: 'start',
+    [theme.breakpoints.up('sm')]: {
+      justifyContent: 'center',
+    },
   },
   textField: {
     width: '100%',
@@ -150,12 +155,15 @@ class Search extends Component {
             </div>
           </form>
           <div>
+            <Typography variant="body1">
+              Products available: {queryResults.length}
+            </Typography>
             <table
               style={{
                 width: `100%`,
                 borderCollapse: `collapse`,
                 borderRadius: `4px`,
-                border: `1px solid #ffffff`,
+                margin: '1rem 0',
               }}
             >
               <tbody>
@@ -166,7 +174,6 @@ class Search extends Component {
                       <td
                         style={{
                           fontSize: `14px`,
-                          border: `1px solid #ffffff`,
                         }}
                       >
                         <Button className={classes.button} href={item.url} target="_blank" rel="noopener noreferrer" >{item.business}</Button>
@@ -174,7 +181,6 @@ class Search extends Component {
                       <td
                         style={{
                           fontSize: `14px`,
-                          border: `1px solid #ffffff`,
                         }}
                       >
                         {item.description}

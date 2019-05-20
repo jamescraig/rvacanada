@@ -12,3 +12,6 @@ body {
 *:after {
   box-sizing: inherit;
 }
+
+tr:nth-child(even) {background: #fffffe}
+tr:nth-child(odd) {background: #fffaf5}

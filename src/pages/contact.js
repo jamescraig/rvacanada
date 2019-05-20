@@ -246,7 +246,7 @@ class RVA extends React.Component {
 
           <div className={classes.appContent}>
             <main className={classes.mainContent}>
-              <Paper className={classes.paper}>
+              <Paper elevation={3} className={classes.paper}>
                 <Typography variant="h4" className={classes.paperText} gutterBottom>
                   How To Reach Us
                 </Typography>
