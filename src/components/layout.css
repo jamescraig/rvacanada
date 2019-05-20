@@ -13,5 +13,15 @@ body {
   box-sizing: inherit;
 }
 
+/* search input font size */
+label.MuiInputLabel-root,
+input.MuiInput-input {
+  font-size: 1.25rem;
+}
+label.MuiInputLabel-shrink {
+  font-size: 1rem;
+}
+
+/* product table rows */
 tr:nth-child(even) {background: #fffffe}
 tr:nth-child(odd) {background: #fffaf5}
