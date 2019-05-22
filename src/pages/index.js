@@ -11,6 +11,7 @@ import Paper from '@material-ui/core/Paper';
 import Parallax from '../components/Parallax/Parallax';
 import Typography from '@material-ui/core/Typography';
 import Search from "../components/Search/SearchContainer"
+import Footer from "../components/Footer/Footer"
 
 import "../components/layout.css"
 
@@ -222,6 +223,7 @@ class RVA extends React.Component {
                   <Search />
                 </div>
               </Paper>
+              <Footer />
             </main>
           </div>
         </div>

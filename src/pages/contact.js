@@ -6,6 +6,7 @@ import Header from '../components/Navigation/AppBar';
 import Paper from '@material-ui/core/Paper';
 import Parallax from '../components/Parallax/Parallax';
 import Typography from '@material-ui/core/Typography';
+import Footer from '../components/Footer/Footer';
 
 // @material-ui/icons
 import { Phone, Mail, AlternateEmail } from "@material-ui/icons";
@@ -307,6 +308,7 @@ class RVA extends React.Component {
                 <iframe className={classes.iframe} title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.595487396556!2d-79.25419194919408!3d43.82274934936623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d6d1396cfbd3%3A0x3c2a3ab12915911!2sRVA+Canada+Limited!5e0!3m2!1sen!2sca!4v1557704343677!5m2!1sen!2sca" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
 
               </Paper>
+              <Footer />
             </main>
           </div>
         </div>
