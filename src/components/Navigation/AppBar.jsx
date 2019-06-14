@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby";
+import Helmet from "react-helmet";
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
@@ -50,6 +51,9 @@ function Header(props) {
 
   return (
     <React.Fragment>
+      <Helmet>
+        <script src="https://cdn.polyfill.io/v2/polyfill.min.js" />
+      </Helmet>
       <AppBar className={classes.appBar}>
         <Toolbar>
           <div className={classes.branding}>

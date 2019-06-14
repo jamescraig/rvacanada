@@ -9,7 +9,6 @@
     "@material-ui/icons": "^4.0.0-beta.0",
     "@material-ui/styles": "^4.0.0-beta.2",
     "axios": "^0.18.0",
-    "babel-polyfill": "^6.26.0",
     "classnames": "^2.2.6",
     "gatsby": "^2.5.0",
     "gatsby-image": "^2.1.0",
