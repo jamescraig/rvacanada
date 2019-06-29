@@ -41,7 +41,7 @@ class Search extends Component {
    * React lifecycle method to fetch the data
    */
   async componentDidMount() {
-    Axios.get(`https://rvaproducts.surge.sh/products.json`)
+    Axios.get(`/products.json`)
       .then(result => {
         const bookData = result.data
         this.setState({ bookList: bookData.products })
