@@ -1,0 +1,598 @@
+{
+  "products": [
+    {
+      "id": "product_1",
+      "url": "http://www.aardvark-pro.com/",
+      "business": "Aardvark",
+      "description": "HD recording, word clock, D.A's"
+    },
+    {
+      "id": "product_2",
+      "url": "http://www.adam-audio.de/",
+      "business": "ADAM",
+      "description": "studio monitors"
+    },
+    {
+      "id": "product_3",
+      "url": "http://www.akaipro.com/",
+      "business": "Akai Professional",
+      "description": "audio processors, digital editors"
+    },
+    {
+      "id": "product_4",
+      "url": "http://www2.akg.com/akg_structuretree/powerslave,id,1.html?flashgo=1",
+      "business": "AKG",
+      "description": "audio processors and digital editors"
+    },
+    {
+      "id": "product_5",
+      "url": "http://www.alesis.com/",
+      "business": "Alesis",
+      "description": "speakers, signal processing, recorders, Mixers"
+    },
+    {
+      "id": "product_6",
+      "url": "http://www.altronic.com/",
+      "business": "Altronic",
+      "description": "dummy loads"
+    },
+    {
+      "id": "product_7",
+      "url": "http://www.antarestech.com/",
+      "business": "Andrew",
+      "description": "antennas, transmission cable, connectors"
+    },
+    {
+      "id": "product_8",
+      "url": "http://www.aphex.com/",
+      "business": "Aphex",
+      "description": "signal processing"
+    },
+    {
+      "id": "product_9",
+      "url": "http://www.apogeedigital.com/",
+      "business": "Apogee",
+      "description": "AD/DA converters"
+    },
+    {
+      "id": "product_10",
+      "url": "http://www.apple.com/ca/",
+      "business": "Apple",
+      "description": "computers,peripherals"
+    },
+    {
+      "id": "product_11",
+      "url": "http://www.ashly.com/",
+      "business": "Ashly",
+      "description": "equalizers, poweramps, crossovers"
+    },
+    {
+      "id": "product_12",
+      "url": "http://www.atiguys.com/",
+      "business": "ATI",
+      "description": "amplifiers, distribution amplifiers"
+    },
+    {
+      "id": "product_13",
+      "url": "http://www.atlassound.com/",
+      "business": "Atlas",
+      "description": "microphone stands and booms"
+    },
+    {
+      "id": "product_14",
+      "url": "http://www.audio-technica.com/index2.html",
+      "business": "Audio Technica",
+      "description": "microphones"
+    },
+    {
+      "id": "product_15",
+      "url": "http://www.auralex.com/",
+      "business": "Auralex",
+      "description": "Acoustic foam & treatment"
+    },
+    {
+      "id": "product_16",
+      "url": "http://www.avalondesign.com/",
+      "business": "Avalon",
+      "description": "pre-amps"
+    },
+    {
+      "id": "product_17",
+      "url": "http://www.avpmfg.com/",
+      "business": "AVP",
+      "description": "patching systems"
+    },
+    {
+      "id": "product_18",
+      "url": "http://www.provo.ca/bl.asp",
+      "business": "B & L",
+      "description": "coaxial connectors"
+    },
+    {
+      "id": "product_19",
+      "url": "http://www.bagend.com/",
+      "business": "Bag End",
+      "description": "speakers, sub-woofers, processors"
+    },
+    {
+      "id": "product_20",
+      "url": "http://www.belar.com/",
+      "business": "Belar",
+      "description": "RF monitors"
+    },
+    {
+      "id": "product_21",
+      "url": "http://www.benchmarkmedia.com/",
+      "business": "Bench Mark",
+      "description": "audio amplifiers and pre-amps"
+    },
+    {
+      "id": "product_22",
+      "url": "http://www.behringer.com/index.cfm?lang=eng",
+      "business": "Beringher",
+      "description": "mixers, processing"
+    },
+    {
+      "id": "product_23",
+      "url": "http://www.powerware.ca.com/",
+      "business": "Best",
+      "description": "see PowerWare"
+    },
+    {
+      "id": "product_24",
+      "url": "http://www.beyerdynamic.com/",
+      "business": "Beyer",
+      "description": "microphones and headphones"
+    },
+    {
+      "id": "product_25",
+      "url": "http://www.bird-electronic.com/",
+      "business": "Bird",
+      "description": "wattmeters, RF loads"
+    },
+    {
+      "id": "product_26",
+      "url": "http://www.bitheadz.com/",
+      "business": "BitHeadz",
+      "description": "software based processors and plug-ins"
+    },
+    {
+      "id": "product_27",
+      "url": "http://blondertongue.com/",
+      "business": "Blonder Tongue",
+      "description": "CATV products"
+    },
+    {
+      "id": "product_28",
+      "url": "http://www.bluemic.com/",
+      "business": "Blue Microphones",
+      "description": "high quality condenser microphones"
+    },
+    {
+      "id": "product_29",
+      "url": "http://www.abluesky.com/",
+      "business": "Blue Sky",
+      "description": "2.1, 5.1  THX monitors"
+    },
+    {
+      "id": "product_30",
+      "url": "http://www.brainstormtime.com/",
+      "business": "Brainstorm Electronics",
+      "description": "time code solutions"
+    },
+    {
+      "id": "product_31",
+      "url": "http://www.brtbcanada.com/",
+      "business": "BRTB",
+      "description": "Custom cables, microphone, multi-track, interface and power cables"
+    },
+    {
+      "id": "product_32",
+      "url": "http://www.brycoproducts.com/",
+      "business": "Bryco",
+      "description": "audio/video tape storage"
+    },
+    {
+      "id": "product_33",
+      "url": "http://www.bryston.ca/",
+      "business": "Bryston",
+      "description": "amplifiers, pre-amps"
+    },
+    {
+      "id": "product_34",
+      "url": "http://www.bss.co.uk/",
+      "business": "BSS",
+      "description": "compressors, processing"
+    },
+    {
+      "id": "product_35",
+      "url": "http://www.burk.com/",
+      "business": "Burk Technology",
+      "description": "transmitter remote control"
+    },
+    {
+      "id": "product_36",
+      "url": "http://www.buzz-audio.com/",
+      "business": "Buzz Audio",
+      "description": "microphone pre-amps"
+    },
+    {
+      "id": "product_37",
+      "url": "http://www.canare.com/",
+      "business": "Canare",
+      "description": "microphone cable, audio/video connectors, video patch panels"
+    },
+    {
+      "id": "product_38",
+      "url": "http://www.clearcom.com/",
+      "business": "Clearcom",
+      "description": "intercoms"
+    },
+    {
+      "id": "product_39",
+      "url": "http://www.clydesdalecases.com/",
+      "business": "Clydesdale",
+      "description": "custom cases"
+    },
+    {
+      "id": "product_40",
+      "url": "http://www.coaxial.com/",
+      "business": "Coaxial Dynamics",
+      "description": "wattmeters, dummy loads"
+    },
+    {
+      "id": "product_41",
+      "url": "http://www.hhb.co.uk/",
+      "business": "Coles",
+      "description": "microphones"
+    },
+    {
+      "id": "product_42",
+      "url": "http://www.comrex.com/",
+      "business": "Comrex",
+      "description": "remote consoles, frequency extenders, ISDN and POTS codecs"
+    },
+    {
+      "id": "product_43",
+      "url": "http://www.comtek.com/",
+      "business": "Comtek",
+      "description": "wireless IFB's"
+    },
+    {
+      "id": "product_44",
+      "url": "http://www.conex-electro.com/",
+      "business": "Conex",
+      "description": "tone generators and sensors"
+    },
+    {
+      "id": "product_45",
+      "url": "http://www.countryman.com/",
+      "business": "Countryman",
+      "description": "microphones"
+    },
+    {
+      "id": "product_46",
+      "url": "http://www.crownaudio.com/",
+      "business": "Crown",
+      "description": "amplifiers, PCM microphones"
+    },
+    {
+      "id": "product_47",
+      "url": "http://www.crownbroadcast.com/",
+      "business": "Crown/IREC",
+      "description": "FM Transmitters"
+    },
+    {
+      "id": "product_48",
+      "url": "http://www.dangerousmusic.com/",
+      "business": "Dangerous Music",
+      "description": "Summing amps, monitoring & metering"
+    },
+    {
+      "id": "product_49",
+      "url": "http://www.dbxpro.com/",
+      "business": "DBX",
+      "description": "audio signal processing"
+    },
+    {
+      "id": "product_50",
+      "url": "http://www.ddaconsoles.com/",
+      "business": "DDA",
+      "description": "recording and sound reinforcement consoles"
+    },
+    {
+      "id": "product_51",
+      "url": "http://www.delcowire.com/",
+      "business": "Delco",
+      "description": "wires and cables"
+    },
+    {
+      "id": "product_52",
+      "url": "http://www.denon.com/",
+      "business": "Denon",
+      "description": "cd cart players and recorders"
+    },
+    {
+      "id": "product_53",
+      "url": "http://www.dielectric.com/index.html",
+      "business": "Dielectric",
+      "description": "TV and FM antennas, transmission hardware"
+    },
+    {
+      "id": "product_54",
+      "url": "http://www.digiflexcables.com/",
+      "business": "Digiflex",
+      "description": "patchcords"
+    },
+    {
+      "id": "product_55",
+      "url": "http://www.digitalaudio.com/",
+      "business": "Digital Audio Labs",
+      "description": "PC sound cards, digital editing software"
+    },
+    {
+      "id": "product_56",
+      "url": "http://www.dixonsystems.com/",
+      "business": "Dixon Systems",
+      "description": "news room mixers, consoles"
+    },
+    {
+      "id": "product_57",
+      "url": "http://www.dk-audio.dk/",
+      "business": "DK Audio",
+      "description": "analogue/digital master displays"
+    },
+    {
+      "id": "product_58",
+      "url": "http://www.dnfcontrols.com/",
+      "business": "DNF Industries",
+      "description": "VTR controllers"
+    },
+    {
+      "id": "product_59",
+      "url": "http://www.dorrough.com/",
+      "business": "Dorrough",
+      "description": "loudness audio meters"
+    },
+    {
+      "id": "product_60",
+      "url": "http://www.dpamicrophones.com/",
+      "business": "DPA",
+      "description": "microphones"
+    },
+    {
+      "id": "product_61",
+      "url": "http://www.drawmer.com/",
+      "business": "Drawmer",
+      "description": "dynamic signal processing"
+    },
+    {
+      "id": "product_62",
+      "url": "http://www.dynaudioacoustics.com/",
+      "business": "Dynaudio Acoustics",
+      "description": "monitor speakers"
+    },
+    {
+      "id": "product_63",
+      "url": "http://www.emu.com/",
+      "business": "E-MU",
+      "description": "samplers"
+    },
+    {
+      "id": "product_64",
+      "url": "http://www.echoaudio.com/",
+      "business": "Echo",
+      "description": "sound cards and interfaces"
+    },
+    {
+      "id": "product_65",
+      "url": "https://en.wikipedia.org/wiki/Eimac",
+      "business": "Eimac",
+      "description": "tubes and sockets"
+    },
+    {
+      "id": "product_66",
+      "url": "http://www.electro-impulse.com/",
+      "business": "Electro-Impulse",
+      "description": "dummy loads"
+    },
+    {
+      "id": "product_67",
+      "url": "http://www.eviaudio.com/",
+      "business": "Electro-Voice (EVI)",
+      "description": "microphones, speakers and mixers"
+    },
+    {
+      "id": "product_68",
+      "url": "http://www.empiricallabs.com/",
+      "business": "Empirical Labs",
+      "description": "Distressor, Fatso, Lil FrEQ"
+    },
+    {
+      "id": "product_69",
+      "url": "http://www.emu.com/",
+      "business": "Ensoniq",
+      "description": "digital audio software"
+    },
+    {
+      "id": "product_70",
+      "url": "http://www.eriinc.com/",
+      "business": "ERI",
+      "description": "FM/TV Antenna, Towers"
+    },
+    {
+      "id": "product_71",
+      "url": "http://www.ese-web.com/",
+      "business": "ESE",
+      "description": "clocks and timers"
+    },
+    {
+      "id": "product_72",
+      "url": "http://www.eventide.com/",
+      "business": "Eventide",
+      "description": "harmonizers, delays, signal processing"
+    },
+    {
+      "id": "product_73",
+      "url": "http://www.focusrite.com/",
+      "business": "Focusrite",
+      "description": "microphone pre amps, channel strip"
+    },
+    {
+      "id": "product_74",
+      "url": "http://www.fostex.com/",
+      "business": "Fostex",
+      "description": "recording equipment, headphones, speakers"
+    },
+    {
+      "id": "product_75",
+      "url": "http://www.ucik.com/Friend-Chip/index.htm",
+      "business": "Friend-Chip Studio Electronics",
+      "description": "digital audio routers and format converters"
+    },
+    {
+      "id": "product_76",
+      "url": "http://www.furmansound.com/",
+      "business": "Furman",
+      "description": "signal processing"
+    },
+    {
+      "id": "product_77",
+      "url": "http://www.futuresonics.com/",
+      "business": "Future Sonics",
+      "description": "in-ear monitoring"
+    },
+    {
+      "id": "product_78",
+      "url": "http://www.gatorcases.com/",
+      "business": "Gator",
+      "description": "cases, racks"
+    },
+    {
+      "id": "product_79",
+      "url": "http://www.genelec.com/",
+      "business": "Genelec",
+      "description": "speakers"
+    },
+    {
+      "id": "product_80",
+      "url": "http://www.groovetubes.com/",
+      "business": "Groove Tubes",
+      "description": "vipre microphone pre amp"
+    },
+    {
+      "id": "product_81",
+      "url": "http://www.hafler.com/",
+      "business": "Hafler",
+      "description": "audio amplifiers"
+    },
+    {
+      "id": "product_82",
+      "url": "http://www.harris.com/",
+      "business": "Harris Corp.",
+      "description": "AM/FM/TV/IBOC Transmitters"
+    },
+    {
+      "id": "product_83",
+      "url": "http://www.heartechnologies.com/",
+      "business": "Hear Technologies",
+      "description": "talk back, hear back systems"
+    },
+    {
+      "id": "product_84",
+      "url": "http://www.hhb.co.uk/",
+      "business": "HHB",
+      "description": "speakers, processing, recording media"
+    },
+    {
+      "id": "product_85",
+      "url": "http://www.homeworthyproducts.com/",
+      "business": "Homeworthy",
+      "description": "custom studio furniture and racks"
+    },
+    {
+      "id": "product_86",
+      "url": "http://www.inovon.com/",
+      "business": "Inovonics",
+      "description": "A/V displays, processing"
+    },
+    {
+      "id": "product_87",
+      "url": "http://www.jampro.com/",
+      "business": "Jampro",
+      "description": "TV and FM antennas and combiners"
+    },
+    {
+      "id": "product_88",
+      "url": "http://www.jblpro.com/",
+      "business": "JBL",
+      "description": "monitor speakers"
+    },
+    {
+      "id": "product_89",
+      "url": "http://www.jkaudio.com/",
+      "business": "JK Audio",
+      "description": "teleco modules, mixers"
+    },
+    {
+      "id": "product_90",
+      "url": "http://www.jlcooper.com/",
+      "business": "JL Cooper",
+      "description": "control surfaces"
+    },
+    {
+      "id": "product_91",
+      "url": "http://www.joemeek.com/",
+      "business": "Joemeek",
+      "description": "processing"
+    },
+    {
+      "id": "product_92",
+      "url": "http://www.k-m.de/",
+      "business": "K & M",
+      "description": "microphone and music stands"
+    },
+    {
+      "id": "product_93",
+      "url": "http://www.kamesan.info/",
+      "business": "Kamesan",
+      "description": "location mixers"
+    },
+    {
+      "id": "product_94",
+      "url": "http://www.klarkteknik.com/",
+      "business": "Klark-Teknik",
+      "description": "processing equipment"
+    },
+    {
+      "id": "product_95",
+      "url": "http://www.kramerelectronics.com/",
+      "business": "Kramer",
+      "description": "switchers, DA's"
+    },
+    {
+      "id": "product_96",
+      "url": "http://www.lexicon.com/",
+      "business": "Lexicon",
+      "description": "audio processing"
+    },
+    {
+      "id": "product_97",
+      "url": "http://www.line6.com/",
+      "business": "Line 6",
+      "description": "POD, guitar processing and amps"
+    },
+    {
+      "id": "product_98",
+      "url": "http://www.littlite.com/",
+      "business": "Littlite",
+      "description": "lamps"
+    },
+    {
+      "id": "product_99",
+      "url": "http://www.logitekaudio.com/",
+      "business": "Logitek",
+      "description": "consoles, meters"
+    }
+  ]
+}
