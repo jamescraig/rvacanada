@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import { MuiThemeProvider, createMuiTheme, withStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -229,6 +230,11 @@ class RVA extends React.Component {
 
     return (
       <MuiThemeProvider theme={theme}>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Contact Us - RVA Canada</title>
+          <link rel="canonical" href="http://rvacanada.netlify.com/" />
+        </Helmet>
         <div className={classes.root}>
           <CssBaseline />
           <Header />

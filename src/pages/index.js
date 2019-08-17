@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet"
 import PropTypes from 'prop-types';
 
 //import Layout from "../components/layout"
@@ -194,6 +195,11 @@ class RVA extends React.Component {
 
     return (
       <MuiThemeProvider theme={theme}>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>RVA Canada</title>
+          <link rel="canonical" href="http://rvacanada.netlify.com/" />
+        </Helmet>
         <div className={classes.root}>
           <CssBaseline />
           <Header />
