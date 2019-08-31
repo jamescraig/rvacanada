@@ -271,7 +271,7 @@ class RVA extends React.Component {
                         RVA Canada Limited <br />
                         74 Dynamic Drive Unit 11 <br />
                         Toronto, ON <br />
-                        M1V 3X6
+                        M1V 3Z5
                       </Typography>
                     </div>
                   </GridItem>
@@ -287,7 +287,6 @@ class RVA extends React.Component {
                       <Typography variant="body1">
                         Tel: (416) 299-6442 <br />
                         Toll Free: 1-866-782-6934 <br />
-                        Fax: (416) 299-0214 <br />
                         Toll Free Fax: 1-866-877-7025
                       </Typography>
                     </div>
@@ -303,8 +302,8 @@ class RVA extends React.Component {
                     <div>
                       <Typography variant="body1">
                         Sales: Ian Schmidt - <a className={classes.emailLink} href="mailto:ian@rvacanada.com">ian@rvacanada.com</a> <br /><br />
-                        Administration - <a className={classes.emailLink} href="mailto:anna@rvacanada.com">anna@rvacanada.com</a> <br />
-                        Accounting - <a className={classes.emailLink} href="mailto:marlene@rvacanada.com">marlene@rvacanada.com</a>
+                        Homeworthy: Siegi Purkott - <a className={classes.emailLink} href="mailto:siegi@rvacanada.com">siegi@rvacanada.com</a> <br />
+                        Accounting - <a className={classes.emailLink} href="mailto:accounting@rvacanada.com">accounting@rvacanada.com</a>
                       </Typography>
                     </div>
                   </GridItem>
