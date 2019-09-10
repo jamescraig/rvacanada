@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from "gatsby";
 import Helmet from "react-helmet";
 import PropTypes from 'prop-types';
+import imageLogo from '../../images/rva-logo.jpg';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 
 // @material-ui/icons
@@ -20,13 +20,22 @@ const styles = theme => ({
     border: '0',
     padding: '0.625rem 0',
     boxShadow: '0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)',
-    marginBottom: '20px'
+    marginBottom: '20px',
+    paddingLeft: '0.5rem',
+    paddingRight: '0.5rem'
   },
   link: {
     textDecoration: 'none',
     color: lightColor,
     '&:hover': {
       color: theme.palette.common.white,
+    },
+  },
+  logo: {
+    width: 'auto',
+    height: '52px',
+    [theme.breakpoints.up('md')]: {
+      height: '72px',
     },
   },
   toolbar: {
@@ -37,7 +46,10 @@ const styles = theme => ({
     flex: '1',
   },
   button: {
-    padding: '1em',
+    padding: '0.5em',
+    [theme.breakpoints.up('md')]: {
+      padding: '1em',
+    },
   },
   navIcon: {
     width: "20px",
@@ -57,13 +69,13 @@ function Header(props) {
       <AppBar className={classes.appBar}>
         <Toolbar>
           <div className={classes.branding}>
-            <Typography variant="h6" color="inherit" className={classes.grow}>
-              RVA Canada
-            </Typography>
+            <Link to="/">
+              <img src={imageLogo} className={classes.logo} />
+            </Link>
           </div>
           <div>
-            <Button className={classes.button} component={Link} to="/" color="inherit">
-              <Equalizer className={classes.icons} /> Home
+            <Button className={classes.button} component={Link} to="/products" color="inherit">
+              <Equalizer className={classes.icons} /> Products
             </Button>
             <Button className={classes.button} component={Link} to="/contact" color="inherit">
               <Phone className={classes.icons} /> Contact

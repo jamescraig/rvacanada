@@ -135,6 +135,7 @@ theme = {
 const styles = {
   root: {
     display: 'block',
+    background: '#eaeff1'
   },
   appContent: {
     display: 'flex',
@@ -165,7 +166,6 @@ const styles = {
   },
   paperText: {
     textAlign: 'center',
-    marginBottom: '0'
   },
   header: {
     color: '#ffffff',
@@ -184,6 +184,10 @@ const styles = {
     height: '70px',
     width: '100%',
   },
+
+  searchSpacer: {
+    margin: '1rem 0',
+  },
 };
 
 class RVA extends React.Component {
@@ -201,26 +205,19 @@ class RVA extends React.Component {
           <CssBaseline />
           <Header />
           <div className={classes.spacer}></div>
-          <Parallax filter image={require("../images/mixer_board.jpg")}>
-            <div className={classes.container}>
-              <Typography variant="h2" gutterBottom className={classes.header}>
-                Welcome to RVA Canada Limited.
-              </Typography>
-              <Typography variant="body1" className={classes.title}>
-                With over 20 years of experience, we are committed to providing exceptional customer service and support to all our clients. 
-                <br /><br />We provide a wide range of professional audio and broadcasting products for broadcast, post production and recording studios.
-                <br /><br />Please take a look at a list of our suppliers below.
-              </Typography>
-            </div>
-          </Parallax>
-
+          <div className={classes.spacer}></div>
           <div className={classes.appContent}>
             <main className={classes.mainContent}>
               <Paper elevation={3} className={classes.paper}>
                 <Typography variant="h4" className={classes.paperText} gutterBottom>
                   Our products
                 </Typography>
-                <Search />
+                <Typography variant="body1" className={classes.paperText}>
+                  Please take a look at a list of our suppliers below.
+                </Typography>
+                <div className={classes.searchSpacer}>
+                  <Search />
+                </div>
               </Paper>
               <Footer />
             </main>

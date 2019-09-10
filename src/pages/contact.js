@@ -302,7 +302,7 @@ class RVA extends React.Component {
                     <div>
                       <Typography variant="body1">
                         Sales: Ian Schmidt - <a className={classes.emailLink} href="mailto:ian@rvacanada.com">ian@rvacanada.com</a> <br />
-                        Homeworthy: Siegi Purkott - <a className={classes.emailLink} href="mailto:siegi@rvacanada.com">siegi@rvacanada.com</a> <br />
+                        Siegi Purkott - <a className={classes.emailLink} href="mailto:siegi@rvacanada.com">siegi@rvacanada.com</a> <br />
                         Accounting - <a className={classes.emailLink} href="mailto:accounting@rvacanada.com">accounting@rvacanada.com</a>
                       </Typography>
                     </div>
