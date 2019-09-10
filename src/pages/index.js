@@ -149,7 +149,7 @@ const styles = {
     color: '#ffffff',
     zIndex: '20',
     [theme.breakpoints.up('md')]: {
-      width: '70%',
+      width: '80%',
     },
   },
   paper: {
