@@ -195,7 +195,7 @@ class RVA extends React.Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>RVA Canada</title>
-          <link rel="canonical" href="http://rvacanada.com/" />
+          <link rel="canonical" href="https://rvacanada.com/" />
         </Helmet>
         <div className={classes.root}>
           <CssBaseline />
